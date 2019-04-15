@@ -109,6 +109,6 @@ chmod +x ./install
 
 
 **************************
-##Issues
+##Encountered problems:
 I had to add tags to the ASG/deployment groups. Despite them being optional they
 were necessary to get the application to the server. This caught me up for almost 2 days.
