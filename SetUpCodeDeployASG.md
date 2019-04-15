@@ -97,3 +97,18 @@ chmod +x ./install
 20. Leave deployment description blank
 21. expand advanced
 22. Create deployment.
+
+**************************
+####How to create an appspec file:
+1. Go [here](https://docs.aws.amazon.com/codedeploy/latest/userguide/application-revisions-appspec-file.html#add-appspec-file-server) to get a an appspec template and copy into ```appspec.yml``` file. Also [here](https://docs.aws.amazon.com/codedeploy/latest/userguide/reference-appspec-file.html) is more docs.
+
+2. Place ```appspec.yml``` in root of application next to ```buildspec.yml```
+
+
+
+
+
+**************************
+##Issues
+I had to add tags to the ASG/deployment groups. Despite them being optional they
+were necessary to get the application to the server. This caught me up for almost 2 days.
