@@ -7,7 +7,7 @@
 6. Open the terminal and run chmod 400 <mykeypair>
 7. After the instance is created run this to ssh to your EC2.
 
-```ssh -i path/to/keypair/mykeypair.pem ec2-user@ec2-18-184-227-174.eu-central-1.compute.amazonaws.com```
+```ssh -i path/to/keypair/mykeypair.pem ec2-user@<public dns>```
 
 Tips: For the second part of the last value ec2-user@this_part ... get that value from the ec2 dashboard.
 It is located under the ec2 description and is called `Public DNS (IPv4)`
